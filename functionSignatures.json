@@ -1,0 +1,15 @@
+{
+  "_schemaVersion": "1.0.0",
+  "RangePicker":
+  {
+     "inputs":
+     [
+        {"name":"Range", "kind":"required", "type":"double"},
+        {"name":"FigHndl", "kind":"namevalue", "type":"matlab.ui.Figure"},
+        {"name":"Position", "kind":"namevalue", "type":"numeric"},
+        {"name":"Color", "kind":"namevalue", "type":"numeric"},
+        {"name":"OnDrag", "kind":"namevalue", "type":"function_handle"},
+        {"name":"OnChange", "kind":"namevalue", "type":"function_handle"}
+     ]
+  }
+}
